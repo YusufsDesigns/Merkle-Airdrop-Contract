@@ -1,11 +1,11 @@
 # Airdrop Contract
 
-This project implements an Ethereum-based airdrop contract that utilizes Merkle trees and Merkle proofs to verify eligibility for the airdrop efficiently. It incorporates a gas-optimized signature-based system for claim delegation and transaction fee sponsorship, ensuring minimal gas costs for participants while supporting secure claim delegation. The contract leverages OpenZeppelin libraries for standard security practices and Chainlink services to improve the scalability and reliability of the airdrop mechanism.
+This project implements an Ethereum-based airdrop contract that utilizes Merkle trees and Merkle proofs to verify eligibility for the airdrop efficiently. It incorporates a gas-optimized signature-based system for claim delegation and transaction fee sponsorship, ensuring minimal gas costs for participants while supporting secure claim delegation. The contract leverages OpenZeppelin libraries for standard security practices.
 
 ## Features
 - **Merkle Trees & Merkle Proofs**: Efficient eligibility verification for airdrop participants.
 - **Gas-Optimized**: Signature-based system for transaction fee sponsorship and claim delegation.
-- **Security**: Utilizes OpenZeppelin's contracts for standard security and Chainlink for scalability.
+- **Security**: Utilizes OpenZeppelin's contracts for standard security.
 - **Flexible Claiming**: Delegates claims and handles transaction fees efficiently.
 
 ## Setup
